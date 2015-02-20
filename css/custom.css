@@ -1,0 +1,167 @@
+
+body {
+  background-color: black;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
+.navbar a {
+  margin: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/csb2.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-size: cover !important;
+  color: white;
+}
+
+.jumbotron h1 {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.jumbotron p {
+  margin-bottom: 30px;
+  padding: 0 50px;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+.container hr {
+  width: 150px;
+  color: white;
+}
+
+.container2 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-size: cover !important;
+  text-align: center;
+  color: #5597D9;
+  height: 100vh;
+  margin: 30px;
+}
+
+.container2 hr {
+  width: 150px;
+  color: #5597D9;
+}
+
+
+.footer {
+  text-align: center;
+  position: relative;
+  margin-top: -30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #5597D9;
+}
+
+.footer hr {
+  width: 100px;
+}
+
+.btn-lg {
+  font-size: 28px;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+  .jumbotron p {
+    font-size: 46px
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .jumbotron p {
+    color: #00FFFFFF;
+    font-size: 46px
+    margin-bottom: 30px;
+  }
+
+}
+
+
+@media (max-width: 991px) {
+  .jumbotron h1 {
+    font-size: 46px;
+    margin-bottom: 30px;
+  }
+
+}
+
+
+@media (max-width: 881px) {
+  .jumbotron {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    background-image: url("../images/csbm.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-position: center;
+    background-size: cover !important;
+    color: white;
+  }
+}
+
+@media (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 467px) {
+  .jumbotron h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 467px) {
+  .jumbotron p {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .btn-lg {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 367px) {
+  .btn-lg {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .jumbotron {
+    background-position: center;
+  }
+
+}
