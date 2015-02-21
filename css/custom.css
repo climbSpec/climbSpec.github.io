@@ -1,6 +1,6 @@
 
 body {
-  background-color: black;
+  background-color: #D6C789;
 }
 
 ul.nav, .jumbotron h1 {
@@ -36,12 +36,12 @@ ul.nav, .jumbotron h1 {
 
 .container {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .container hr {
   width: 150px;
-  color: white;
+  color: black;
 }
 
 .container2 {
@@ -51,14 +51,14 @@ ul.nav, .jumbotron h1 {
   background-position: center;
   background-size: cover !important;
   text-align: center;
-  color: #5597D9;
+  color: black;
   height: 100vh;
   margin: 30px;
 }
 
 .container2 hr {
   width: 150px;
-  color: #5597D9;
+  color: black;
 }
 
 
@@ -68,7 +68,7 @@ ul.nav, .jumbotron h1 {
   margin-top: -30px;
   background-repeat: no-repeat;
   background-position: center;
-  color: #5597D9;
+  color: black;
 }
 
 .footer hr {
